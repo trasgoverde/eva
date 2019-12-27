@@ -20,6 +20,6 @@ import { ContactComponent } from './pages/contact/contact.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, ContactComponent]
 })
 export class AppModule { }
