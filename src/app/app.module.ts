@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { DocsComponent } from './components/docs/docs.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { PricingComponent } from './components/pricing/pricing.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 
@@ -20,7 +21,8 @@ import { PricingComponent } from './components/pricing/pricing.component';
     HomeComponent,
     DocsComponent,
     FeaturesComponent,
-    PricingComponent
+    PricingComponent,
+    ContactComponent
     
   ],
   imports: [
