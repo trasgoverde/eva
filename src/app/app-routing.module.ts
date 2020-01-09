@@ -17,7 +17,7 @@ const routes: Routes = [
     component: Page404Component
   },
   {
-    path: '',
+    path: 'home',
     pathMatch: 'full',
     component: AppComponent
   },
