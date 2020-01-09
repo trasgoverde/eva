@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { DocsComponent } from './components/docs/docs.component';
+import { FeaturesComponent } from './components/features/features.component';
 
 
 
@@ -16,7 +17,8 @@ import { DocsComponent } from './components/docs/docs.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    DocsComponent
+    DocsComponent,
+    FeaturesComponent
     
   ],
   imports: [
