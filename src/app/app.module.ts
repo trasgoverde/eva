@@ -10,6 +10,8 @@ import { DocsComponent } from './components/docs/docs.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { Page404Component } from './components/page404/page404.component';
+import { DocspageComponent } from './components/docspage/docspage.component';
 
 
 
@@ -22,14 +24,17 @@ import { ContactComponent } from './components/contact/contact.component';
     DocsComponent,
     FeaturesComponent,
     PricingComponent,
-    ContactComponent
+    ContactComponent,
+    Page404Component,
+    DocspageComponent
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, ContactComponent, DocsComponent, FeaturesComponent, PricingComponent, Page404Component]
 })
 export class AppModule { }
