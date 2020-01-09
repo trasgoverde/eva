@@ -12,6 +12,13 @@ import { PricingComponent } from './components/pricing/pricing.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { Page404Component } from './components/page404/page404.component';
 import { DocspageComponent } from './components/docspage/docspage.component';
+import { HowweworkComponent } from './components/howwework/howwework.component';
+import { HowdoesworkComponent } from './components/howdoeswork/howdoeswork.component';
+import { TeaserComponent } from './components/teaser/teaser.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { IntegrationsComponent } from './components/integrations/integrations.component';
+import { FaqsComponent } from './components/faqs/faqs.component';
+import { Testimonials2Component } from './components/testimonials2/testimonials2.component';
 
 
 
@@ -26,7 +33,14 @@ import { DocspageComponent } from './components/docspage/docspage.component';
     PricingComponent,
     ContactComponent,
     Page404Component,
-    DocspageComponent
+    DocspageComponent,
+    HowweworkComponent,
+    HowdoesworkComponent,
+    TeaserComponent,
+    TestimonialsComponent,
+    IntegrationsComponent,
+    FaqsComponent,
+    Testimonials2Component
     
   ],
   imports: [
