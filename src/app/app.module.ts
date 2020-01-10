@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 //Rutas
 
@@ -55,10 +56,20 @@ import { PhotosComponent } from './components/photos/photos.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    app_routing
+    app_routing,
+    HttpClientModule
     
   ],
+
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],
-  bootstrap: [AppComponent, ContactComponent, DocsComponent, FeaturesComponent, PricingComponent, Page404Component]
+  bootstrap: [AppComponent, HeaderComponent,
+    FooterComponent, HomeComponent, HowdoesworkComponent, 
+    HowweworkComponent, ContactComponent, DocsComponent, 
+    DocspageComponent,     TeaserComponent,
+    TestimonialsComponent, IntegrationsComponent,
+    FaqsComponent, Testimonials2Component,
+    AboutComponent, PhotosComponent,
+    FeaturesComponent, PricingComponent, Page404Component]
 })
 export class AppModule { }
