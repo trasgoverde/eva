@@ -1,6 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//Rutas
+
+import {app_routing} from "./app.routes"
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -19,6 +24,8 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
 import { IntegrationsComponent } from './components/integrations/integrations.component';
 import { FaqsComponent } from './components/faqs/faqs.component';
 import { Testimonials2Component } from './components/testimonials2/testimonials2.component';
+import { AboutComponent } from './components/about/about.component';
+import { PhotosComponent } from './components/photos/photos.component';
 
 
 
@@ -40,12 +47,15 @@ import { Testimonials2Component } from './components/testimonials2/testimonials2
     TestimonialsComponent,
     IntegrationsComponent,
     FaqsComponent,
-    Testimonials2Component
+    Testimonials2Component,
+    AboutComponent,
+    PhotosComponent
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    app_routing
     
   ],
   providers: [],
