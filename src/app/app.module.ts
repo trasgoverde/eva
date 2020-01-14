@@ -27,6 +27,7 @@ import { FaqsComponent } from './components/faqs/faqs.component';
 import { Testimonials2Component } from './components/testimonials2/testimonials2.component';
 import { AboutComponent } from './components/about/about.component';
 import { PhotosComponent } from './components/photos/photos.component';
+import { PricingmarketingComponent } from './components/pricingmarketing/pricingmarketing.component';
 
 
 
@@ -50,7 +51,8 @@ import { PhotosComponent } from './components/photos/photos.component';
     FaqsComponent,
     Testimonials2Component,
     AboutComponent,
-    PhotosComponent
+    PhotosComponent,
+    PricingmarketingComponent
     
   ],
   imports: [
