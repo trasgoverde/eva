@@ -28,6 +28,7 @@ import { Testimonials2Component } from './components/testimonials2/testimonials2
 import { AboutComponent } from './components/about/about.component';
 import { PhotosComponent } from './components/photos/photos.component';
 import { PricingmarketingComponent } from './components/pricingmarketing/pricingmarketing.component';
+import { PricingtotalsComponent } from './components/pricingtotals/pricingtotals.component';
 
 
 
@@ -52,7 +53,8 @@ import { PricingmarketingComponent } from './components/pricingmarketing/pricing
     Testimonials2Component,
     AboutComponent,
     PhotosComponent,
-    PricingmarketingComponent
+    PricingmarketingComponent,
+    PricingtotalsComponent
     
   ],
   imports: [
@@ -68,7 +70,7 @@ import { PricingmarketingComponent } from './components/pricingmarketing/pricing
   bootstrap: [AppComponent, HeaderComponent,
     FooterComponent, HomeComponent, HowdoesworkComponent, 
     HowweworkComponent, ContactComponent, DocsComponent, 
-    DocspageComponent,     TeaserComponent,
+    DocspageComponent, TeaserComponent,
     TestimonialsComponent, IntegrationsComponent,
     FaqsComponent, Testimonials2Component,
     AboutComponent, PhotosComponent,

@@ -1,7 +1,7 @@
 /* ========= Typewriter effect =========== */
 /* Ref: https://safi.me.uk/typewriterjs/ */
 const instance = new Typewriter('#typewriter', {
-  strings: ['JS Library', 'jQuery Plugin', 'Browser Extension', 'CMS Plugin', 'Mobile App', 'Open Source Project'],
+  strings: ['Webapps', 'Customer Experience', 'Digital Marketing', 'Design', 'Mobile Apps', 'Open Source Projects'],
   autoStart: true,
   loop: true,
 });
